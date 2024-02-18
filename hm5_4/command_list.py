@@ -40,7 +40,5 @@ def show_phone(args, contacts):
 def show_all(contacts):
 
     for name, phone in contacts.items():
-        print("Your contacts:")
-        print(f"{name}: {phone}")
-        print()
+        return f"Your contacts: \n{name}: {phone}\n"
 
